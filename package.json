@@ -1,0 +1,24 @@
+{
+  "name": "code-assignment",
+  "version": "1.0.0",
+  "description": "Evaluate async environment",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0 <21.0.0"
+  },
+  "scripts": {
+    "start:plain": "node src/plainServer.js",
+    "start:async": "node src/asyncServer.js",
+    "start:promises": "node src/promiseServer.js",
+    "start:rxjs": "node src/rxjsServer.js"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "rxjs": "^7.5.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "author": "AffanAli",
+  "license": "ISC"
+}
